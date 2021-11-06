@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>copy-result</string>
+            <key>After</key>
+            <string>show-result</string>
+			<key>Image File</key>
+			<string>timestamp_converter.png</string>
+			<key>Regular Expression</key>
+			<string>(\d{10}|\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}|\d{4}-\d{2}-\d{2})</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>timestamp_converter.php</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Timestamp Converter</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Convert Unix timestamps to / from human-readable datetime format</string>
+	<key>Extension Identifier</key>
+	<string>com.alevar88.popclip.extension.timestamp-converter</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Timestamp Converter</string>
+	</dict>
+</dict>
+</plist>
