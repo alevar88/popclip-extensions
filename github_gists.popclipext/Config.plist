@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>copy-result</string>
+            <key>After</key>
+            <string>show-result</string>
+			<key>Image File</key>
+			<string>github_gists.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>github_gists.php</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>GitHub Gists</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>github_token</string>
+			<key>Option Type</key>
+			<string>string</string>
+			<key>Option Label</key>
+			<string>GitHub Token</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>time_zone</string>
+			<key>Option Type</key>
+			<string>string</string>
+			<key>Option Label</key>
+			<string>Time Zone</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>GitHub private gists creator from selected text</string>
+	<key>Extension Identifier</key>
+	<string>com.alevar88.popclip.extension.github-gists</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>GitHub Gists</string>
+	</dict>
+</dict>
+</plist>
