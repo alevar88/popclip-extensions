@@ -19,3 +19,8 @@ Unix timestamps to / from human-readable datetime format.
 
 Create a private gist from selected text and get a raw-link to it.\
 ![github_gists_options](screenshots/github_gists_options.png)
+
+## Agenda Note creator
+<img src="https://github.com/alevar88/popclip-extensions/blob/master/agenda.popclipext/agenda.png" width="150" height="150">
+
+Create Agenda note from selected text
